@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "falcon-pro": {
+      "name": "Falcon Pro",
+      "machine": "CR-Laser Falcon Pro 10W (GRBL, chuck rotary)",
+      "mm_per_rotation": 44.5,
+      "status": "measured 2026-11-21; CONFIRMED 2026-11-22 by LaserForge calibration burn (intended 2.500 in arc, measured 2.5 in)",
+      "notes": "Measured via the LightBurn route on 2026-11-21: the Williams logo's intended wrap was 2.5 in and it burned 4.125 in at mm_per_rotation 73.4 (a derived value); true = 73.4 x 2.5 / 4.125 = 44.48, set to 44.5. One constant for the machine+chuck; per cup, only the circumference changes."
+    }
+  },
+  "calibration_pending": {
+    "profile": "falcon-pro",
+    "circumference_mm": 323.84999999999997,
+    "test_arc_mm": 63.5,
+    "mm_per_rotation_used": 44.5,
+    "generated": "2026-11-21T23:49:03",
+    "output": "/home/hatch/workspace/laser-rotary/laserforge-calibration-yeti.gcode"
+  }
+}
